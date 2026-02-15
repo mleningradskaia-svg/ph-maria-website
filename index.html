@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Maria — Family & Children's Photographer in Illinois</title>
+    <meta name="description"
+        content="Maria Leningradskaya — lifestyle family and baby photographer in Chicago, Illinois. Capturing natural, heartfelt moments. Book your session today.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Dancing+Script:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+
+<body>
+
+    <!-- ===== NAVIGATE BUTTON (brushstroke style) ===== -->
+    <button class="navigate-btn" id="navToggle" aria-label="Open menu">
+        <svg class="nav-brush" viewBox="0 0 140 50" preserveAspectRatio="none">
+            <path d="M8,25 Q5,8 35,6 Q70,2 105,6 Q135,10 133,25 Q136,42 105,45 Q70,48 35,45 Q5,42 8,25 Z"
+                fill="#C4977A" />
+        </svg>
+        <span class="navigate-text">navigate</span>
+    </button>
+
+    <!-- ===== NAVIGATION OVERLAY ===== -->
+    <nav class="nav-overlay" id="navOverlay">
+        <div class="nav-backdrop" id="navBackdrop"></div>
+        <div class="nav-panel">
+            <button class="nav-close" id="navClose" aria-label="Close menu">&times;</button>
+            <div class="nav-inner">
+                <div class="nav-logo-area">
+                    <span class="nav-logo-script">Art Maria</span>
+                    <span class="nav-logo-sub">PHOTOGRAPHER</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#reviews" class="nav-link">Reviews</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-footer">
+                    <a href="https://instagram.com" target="_blank" class="nav-social" aria-label="Instagram">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <rect x="2" y="2" width="20" height="20" rx="5" />
+                            <circle cx="12" cy="12" r="5" />
+                            <circle cx="17.5" cy="6.5" r="1.5" />
+                        </svg>
+                    </a>
+                    <p class="nav-email">Chicago, Illinois</p>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <img src="images/hero.png" alt="Family photography" class="hero-bg-img">
+            <div class="hero-overlay"></div>
+        </div>
+
+        <!-- Decorative dark rounded rectangle (left side, like camera viewfinder) -->
+        <div class="hero-viewfinder"></div>
+
+        <div class="hero-content">
+            <div class="hero-monogram">
+                <span>A</span><span class="mono-line">|</span><span>M</span>
+            </div>
+            <h1 class="hero-title">ART MARIA</h1>
+            <p class="hero-subtitle">
+                <span class="sub-sans">LIFESTYLE</span>
+                <span class="sub-script">family</span>
+                <span class="sub-sans">PHOTOGRAPHY</span>
+            </p>
+            <a href="#contact" class="btn-brush hero-cta">
+                <svg class="btn-brush-bg" viewBox="0 0 180 55" preserveAspectRatio="none">
+                    <path d="M10,28 Q7,8 40,6 Q90,2 140,6 Q173,10 172,28 Q175,48 140,50 Q90,53 40,50 Q7,47 10,28 Z"
+                        fill="#C4977A" />
+                </svg>
+                <span class="btn-brush-text">book now</span>
+            </a>
+        </div>
+
+        <!-- Gingham-framed photo overlapping bottom -->
+        <div class="hero-overlap-frame">
+            <div class="gingham-border">
+                <img src="images/family.png" alt="Family session" class="overlap-photo">
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== INTRO / ABOUT TEASER ===== -->
+    <section class="intro-section" id="about">
+        <!-- Decorative hand-drawn scribbles -->
+        <svg class="deco-squiggle deco-squiggle-1" viewBox="0 0 100 20" fill="none" stroke="#C4977A" stroke-width="1.5">
+            <path d="M5,10 Q15,2 25,10 Q35,18 45,10 Q55,2 65,10 Q75,18 85,10 Q95,2 100,10" />
+        </svg>
+
+        <div class="intro-grid">
+            <div class="intro-text-side">
+                <p class="label-upper">YOUR ILLINOIS BASED</p>
+                <h2 class="intro-heading">
+                    <span class="serif-title">FAMILY &amp;</span>
+                    <span class="serif-title">LIFESTYLE</span>
+                    <span class="script-accent">Photographer</span>
+                </h2>
+
+                <div class="intro-pills">
+                    <a href="#experience" class="pill-btn">
+                        <svg class="pill-brush" viewBox="0 0 140 42" preserveAspectRatio="none">
+                            <path d="M8,21 Q5,5 35,4 Q70,1 105,4 Q135,7 132,21 Q135,37 105,39 Q70,42 35,39 Q5,37 8,21 Z"
+                                fill="#C4977A" />
+                        </svg>
+                        <span>motherhood</span>
+                    </a>
+                    <a href="#experience" class="pill-btn">
+                        <svg class="pill-brush" viewBox="0 0 140 42" preserveAspectRatio="none">
+                            <path d="M8,21 Q5,5 35,4 Q70,1 105,4 Q135,7 132,21 Q135,37 105,39 Q70,42 35,39 Q5,37 8,21 Z"
+                                fill="#C4977A" />
+                        </svg>
+                        <span>newborn</span>
+                    </a>
+                    <a href="#experience" class="pill-btn">
+                        <svg class="pill-brush" viewBox="0 0 140 42" preserveAspectRatio="none">
+                            <path d="M8,21 Q5,5 35,4 Q70,1 105,4 Q135,7 132,21 Q135,37 105,39 Q70,42 35,39 Q5,37 8,21 Z"
+                                fill="#C4977A" />
+                        </svg>
+                        <span>family</span>
+                    </a>
+                </div>
+            </div>
+            <div class="intro-image-side">
+                <div class="intro-img-stack">
+                    <div class="img-main-wrap">
+                        <img src="images/newborn.png" alt="Newborn session" class="img-main">
+                    </div>
+                    <div class="img-accent-wrap">
+                        <img src="images/baby.png" alt="Baby session" class="img-accent">
+                    </div>
+                    <!-- Hand-drawn bow decoration -->
+                    <svg class="deco-bow" viewBox="0 0 60 40" fill="none" stroke="#C4977A" stroke-width="1.2">
+                        <path d="M30,20 Q20,5 8,12 Q2,18 12,22 Q22,25 30,20" />
+                        <path d="M30,20 Q40,5 52,12 Q58,18 48,22 Q38,25 30,20" />
+                        <path d="M28,20 Q30,28 30,35" />
+                        <path d="M32,20 Q30,28 30,35" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT ME SECTION ===== -->
+    <section class="about-section">
+        <!-- Watercolor blob background -->
+        <div class="watercolor-blob blob-1"></div>
+
+        <div class="about-layout">
+            <div class="about-photo-col anim-el" data-anim="fade-right">
+                <div class="about-photo-wrap">
+                    <img src="images/about.png" alt="Maria Leningradskaya" class="about-photo">
+                    <div class="photo-frame-accent"></div>
+                </div>
+                <!-- Hand-drawn arrow -->
+                <svg class="deco-arrow" viewBox="0 0 80 40" fill="none" stroke="#C4977A" stroke-width="1.5">
+                    <path d="M5,30 Q20,10 50,15 Q70,18 75,12" />
+                    <path d="M65,8 L75,12 L68,20" />
+                </svg>
+            </div>
+            <div class="about-content-col anim-el" data-anim="fade-left">
+                <p class="label-upper">A LITTLE ABOUT</p>
+                <h2 class="about-heading">
+                    <span class="script-accent">Hi Friend!</span>
+                    <span class="serif-title">I'M MARIA</span>
+                </h2>
+                <div class="about-text">
+                    <p>I'm Maria Leningradskaya — a lifestyle and portrait photographer based in Illinois. For the past
+                        <strong>7 years</strong>, families, couples, women, and men have trusted me to capture the
+                        moments that truly matter — whether it's a milestone, a personal portrait session, or photos for
+                        a business portfolio.
+                    </p>
+                    <p>As a mom of two daughters, I know just how important it is to preserve family memories. I
+                        absolutely love working with kids and creating natural, heartfelt portraits.</p>
+                    <p>Photography is more than a job to me — it's my passion. I'm based in Chicago and shoot throughout
+                        Illinois, and I'm always open to travel for sessions in other states too.</p>
+                </div>
+                <a href="#contact" class="btn-brush">
+                    <svg class="btn-brush-bg" viewBox="0 0 180 55" preserveAspectRatio="none">
+                        <path d="M10,28 Q7,8 40,6 Q90,2 140,6 Q173,10 172,28 Q175,48 140,50 Q90,53 40,50 Q7,47 10,28 Z"
+                            fill="#C4977A" />
+                    </svg>
+                    <span class="btn-brush-text">let's connect</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EXPERIENCE / SERVICES ===== -->
+    <section class="experience-section" id="experience">
+        <div class="watercolor-blob blob-2"></div>
+
+        <div class="exp-header anim-el" data-anim="fade-up">
+            <p class="label-upper">THE</p>
+            <h2 class="exp-heading">
+                <span class="serif-title">EXPERIENCE</span>
+            </h2>
+            <p class="exp-intro">Every session with me is designed to feel natural, relaxed, and full of joy. I believe
+                the best photos happen when you're simply being yourselves.</p>
+        </div>
+
+        <div class="exp-grid">
+            <div class="exp-card anim-el" data-anim="fade-up">
+                <div class="exp-card-img">
+                    <img src="images/newborn.png" alt="Newborn photography">
+                </div>
+                <h3 class="exp-card-title">NEWBORN</h3>
+                <p class="exp-card-desc">Tender, intimate sessions capturing the first precious days of your baby's
+                    life.</p>
+            </div>
+            <div class="exp-card exp-card-offset anim-el" data-anim="fade-up">
+                <div class="exp-card-img">
+                    <img src="images/family.png" alt="Family photography">
+                </div>
+                <h3 class="exp-card-title">FAMILY</h3>
+                <p class="exp-card-desc">Heartfelt family sessions capturing the love and laughter that makes your
+                    family unique.</p>
+            </div>
+            <div class="exp-card anim-el" data-anim="fade-up">
+                <div class="exp-card-img">
+                    <img src="images/baby.png" alt="Baby lifestyle photography">
+                </div>
+                <h3 class="exp-card-title">BABY LIFESTYLE</h3>
+                <p class="exp-card-desc">Playful sessions documenting milestones and those fleeting moments of
+                    childhood.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== REVIEWS SECTION ===== -->
+    <section class="reviews-section" id="reviews">
+        <div class="watercolor-blob blob-3"></div>
+
+        <div class="reviews-header anim-el" data-anim="fade-up">
+            <p class="label-upper">KIND WORDS</p>
+            <h2 class="reviews-heading">
+                <span class="serif-title">REVIEWS</span>
+            </h2>
+        </div>
+
+        <div class="reviews-carousel">
+            <div class="reviews-track" id="reviewsTrack">
+                <div class="review-slide">
+                    <p class="review-quote">"Maria is incredibly talented and made our family feel so comfortable. The
+                        photos turned out absolutely stunning — we will treasure them forever!"</p>
+                    <p class="review-name">SELBI</p>
+                </div>
+                <div class="review-slide">
+                    <p class="review-quote">"The newborn session was magical. Maria was so patient and gentle with our
+                        baby, and the resulting images are works of art."</p>
+                    <p class="review-name">GALINA</p>
+                </div>
+                <div class="review-slide">
+                    <p class="review-quote">"We've done three sessions with Maria and each time the photos get better.
+                        She truly captures the essence of our family."</p>
+                    <p class="review-name">MARINA</p>
+                </div>
+                <div class="review-slide">
+                    <p class="review-quote">"I was nervous about our first photoshoot, but Maria made everything so
+                        natural. The photos look like they belong in a magazine!"</p>
+                    <p class="review-name">VIKTORIIA</p>
+                </div>
+                <div class="review-slide">
+                    <p class="review-quote">"Maria has a gift for capturing genuine emotions. Every single photo tells a
+                        story. We are so grateful!"</p>
+                    <p class="review-name">KARINA</p>
+                </div>
+            </div>
+            <div class="reviews-controls">
+                <button class="rev-arrow" id="reviewPrev" aria-label="Previous">&#8592;</button>
+                <div class="rev-dots" id="reviewDots"></div>
+                <button class="rev-arrow" id="reviewNext" aria-label="Next">&#8594;</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CTA (Call-to-action) SECTION ===== -->
+    <section class="cta-section" id="contact">
+        <div class="cta-layout">
+            <div class="cta-photo-left anim-el" data-anim="fade-right">
+                <img src="images/about.png" alt="Maria photographer" class="cta-photo">
+            </div>
+            <div class="cta-center anim-el" data-anim="fade-up">
+                <h2 class="cta-heading">
+                    <span class="serif-title">READY TO CAPTURE</span>
+                    <span class="serif-title">YOUR STORY?</span>
+                </h2>
+                <p class="cta-script">Come on, let's do this!</p>
+                <a href="#contact-form" class="btn-brush cta-btn">
+                    <svg class="btn-brush-bg" viewBox="0 0 180 55" preserveAspectRatio="none">
+                        <path d="M10,28 Q7,8 40,6 Q90,2 140,6 Q173,10 172,28 Q175,48 140,50 Q90,53 40,50 Q7,47 10,28 Z"
+                            fill="#C4977A" />
+                    </svg>
+                    <span class="btn-brush-text">book now</span>
+                </a>
+            </div>
+            <div class="cta-photo-right anim-el" data-anim="fade-left">
+                <img src="images/newborn.png" alt="Newborn session" class="cta-photo">
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT FORM SECTION ===== -->
+    <section class="contact-section" id="contact-form">
+        <div class="contact-inner">
+            <div class="contact-info anim-el" data-anim="fade-right">
+                <p class="label-upper">LET'S CREATE SOMETHING BEAUTIFUL</p>
+                <h2 class="contact-heading">
+                    <span class="script-accent">Get in</span>
+                    <span class="serif-title">TOUCH</span>
+                </h2>
+                <p class="contact-body">Have questions or want to book a session? Feel free to reach out via the form or
+                    text me. I'll get back to you as soon as possible!</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C4977A" stroke-width="1.5">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+                        </svg>
+                        <a href="tel:+12244607774">224-460-77-74</a>
+                    </div>
+                    <div class="contact-item">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C4977A" stroke-width="1.5">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                            <circle cx="12" cy="10" r="3" />
+                        </svg>
+                        <span>Chicago, Illinois</span>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-wrap anim-el" data-anim="fade-left">
+                <form class="contact-form" id="contactForm">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="text" name="contact" placeholder="E-mail / Phone" required>
+                    <textarea name="message" placeholder="Tell me about your dream session..." rows="5"
+                        required></textarea>
+                    <button type="submit" class="btn-brush btn-form-submit">
+                        <svg class="btn-brush-bg" viewBox="0 0 200 55" preserveAspectRatio="none">
+                            <path
+                                d="M10,28 Q7,8 45,6 Q100,2 155,6 Q193,10 190,28 Q193,48 155,50 Q100,53 45,50 Q7,47 10,28 Z"
+                                fill="#C4977A" />
+                        </svg>
+                        <span class="btn-brush-text">send message</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <span class="footer-logo">Art Maria</span>
+            <span class="footer-sub">PHOTOGRAPHER</span>
+            <p class="footer-tagline">Capturing love, laughter & the little moments that matter most.</p>
+            <a href="https://instagram.com" target="_blank" class="footer-ig" aria-label="Instagram">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <rect x="2" y="2" width="20" height="20" rx="5" />
+                    <circle cx="12" cy="12" r="5" />
+                    <circle cx="17.5" cy="6.5" r="1.5" />
+                </svg>
+            </a>
+            <p class="footer-copy">&copy; 2026 Art Maria Photography &middot; Family photo sessions in Chicago and
+                throughout Illinois</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        if (window.netlifyIdentity) {
+            window.netlifyIdentity.on("init", user => {
+                if (!user) {
+                    window.netlifyIdentity.on("login", () => {
+                        document.location.href = "/admin/";
+                    });
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

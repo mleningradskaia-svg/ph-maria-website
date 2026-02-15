@@ -1,0 +1,58 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+locale: "ru"
+
+collections:
+  - name: "pages"
+    label: "Страницы"
+    files:
+      - name: "homepage"
+        label: "Главная страница"
+        file: "content/homepage.json"
+        fields:
+          - label: "Секция Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Подзаголовок", name: "subtitle", widget: "string", default: "YOUR COMPANY FROM ILLINOIS" }
+              - { label: "Заголовок (строка 1)", name: "title_line1", widget: "string", default: "FAMILY &" }
+              - { label: "Заголовок (строка 2)", name: "title_line2", widget: "string", default: "LIFESTYLE" }
+              - { label: "Слово курсивом", name: "script_word", widget: "string", default: "Photographer" }
+              - { label: "Фон (фото)", name: "background", widget: "image" }
+
+          - label: "Секция О себе"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Фото", name: "photo", widget: "image" }
+              - { label: "Заголовок курсивом", name: "greeting", widget: "string", default: "Hi Friend!" }
+              - { label: "Имя", name: "name", widget: "string", default: "I'M MARIA" }
+              - { label: "Описание", name: "bio", widget: "markdown" }
+
+          - label: "Услуги"
+            name: "services"
+            widget: "list"
+            fields:
+              - { label: "Название", name: "title", widget: "string" }
+              - { label: "Описание", name: "description", widget: "text" }
+              - { label: "Фото", name: "photo", widget: "image" }
+
+          - label: "Отзывы"
+            name: "reviews"
+            widget: "list"
+            fields:
+              - { label: "Имя", name: "name", widget: "string" }
+              - { label: "Текст отзыва", name: "text", widget: "text" }
+
+          - label: "Контакты"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Instagram", name: "instagram", widget: "string" }
+              - { label: "Email", name: "email", widget: "string" }
+              - { label: "Телефон", name: "phone", widget: "string" }
