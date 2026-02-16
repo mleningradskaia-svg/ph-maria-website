@@ -1,0 +1,59 @@
+{
+  "hero": {
+    "subtitle": "YOUR ILLINOIS BASED",
+    "title_line1": "FAMILY &",
+    "title_line2": "LIFESTYLE",
+    "script_word": "Photographer",
+    "background": "/images/hero.png"
+  },
+  "about": {
+    "photo": "/images/about.png",
+    "greeting": "Hi Friend!",
+    "name": "I'M MARIA",
+    "bio": "I'm Maria Leningradskaya — a lifestyle and portrait photographer based in Illinois. For the past **7 years**, families, couples, women, and men have trusted me to capture the moments that truly matter — whether it's a milestone, a personal portrait session, or photos for a business portfolio.\n\nAs a mom of two daughters, I know just how important it is to preserve family memories. I absolutely love working with kids and creating natural, heartfelt portraits.\n\nPhotography is more than a job to me — it's my passion. I'm based in Chicago and shoot throughout Illinois, and I'm always open to travel for sessions in other states too."
+  },
+  "services": [
+    {
+      "title": "NEWBORN",
+      "description": "Tender, intimate sessions capturing the first precious days of your baby's life.",
+      "photo": "/images/newborn.png"
+    },
+    {
+      "title": "FAMILY",
+      "description": "Heartfelt family sessions capturing the love and laughter that makes your family unique.",
+      "photo": "/images/family.png"
+    },
+    {
+      "title": "BABY LIFESTYLE",
+      "description": "Playful sessions documenting milestones and those fleeting moments of childhood.",
+      "photo": "/images/baby.png"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "SELBI",
+      "text": "Maria is incredibly talented and made our family feel so comfortable. The photos turned out absolutely stunning — we will treasure them forever!"
+    },
+    {
+      "name": "GALINA",
+      "text": "The newborn session was magical. Maria was so patient and gentle with our baby, and the resulting images are works of art."
+    },
+    {
+      "name": "MARINA",
+      "text": "We've done three sessions with Maria and each time the photos get better. She truly captures the essence of our family."
+    },
+    {
+      "name": "VIKTORIIA",
+      "text": "I was nervous about our first photoshoot, but Maria made everything so natural. The photos look like they belong in a magazine!"
+    },
+    {
+      "name": "KARINA",
+      "text": "Maria has a gift for capturing genuine emotions. Every single photo tells a story. We are so grateful!"
+    }
+  ],
+  "contact": {
+    "instagram": "https://instagram.com",
+    "email": "mleningradskaia@gmail.com",
+    "phone": "224-460-77-74"
+  }
+}
